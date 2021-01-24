@@ -18,9 +18,12 @@ package net.brilliant.starter;
 
 import org.springframework.boot.SpringApplication;
 
+import lombok.extern.slf4j.Slf4j;
+
  /**
  * @author ducbq
  */
+@Slf4j
 public class ApplicationLunchpad {
 
 	protected ApplicationLunchpad() {
@@ -28,8 +31,9 @@ public class ApplicationLunchpad {
 
 	public static void main(String[] args) {
 		try {
-			SpringApplication.run(ApplicationStarter.class, args);
-			System.out.println("System started and ready!!!");
+			log.info("Application starting.......");
+		  SpringApplication.run(ApplicationStarter.class, args);
+		  log.info("Application is ready!!!");
 		} catch (Exception e) {
 			//e.printStackTrace();
 		}
