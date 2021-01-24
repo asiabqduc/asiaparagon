@@ -51,7 +51,7 @@
 		
 		<version.commons-io>2.6</version.commons-io>
 		
-		<version.joinfaces-dependencies>4.1.4</version.joinfaces-dependencies>
+		<version.joinfaces-dependencies>4.4.2</version.joinfaces-dependencies>
 		<version.admin-template>1.1.0</version.admin-template><!-- 1.0.2 -->
 		<version.admin-theme>1.1.0</version.admin-theme>
 		<version.primefaces>8.0</version.primefaces>
