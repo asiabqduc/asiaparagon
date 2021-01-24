@@ -16,7 +16,10 @@
 
 package net.brilliant.starter;
 
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
+import org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Import;
 
 import com.github.adminfaces.starter.config.MasterConfiguration;
@@ -28,6 +31,7 @@ import net.brilliant.config.BaseConfiguration;
  */
 @Import(value = { MasterConfiguration.class, BaseConfiguration.class })
 @SpringBootApplication
+@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class,WebMvcAutoConfiguration.class })
 public class ApplicationStarter {
 	/*@Inject
 	private Utils utils;
