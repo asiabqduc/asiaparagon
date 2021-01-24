@@ -188,26 +188,14 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.2.9</version>
 		</dependency>
-        
 
-<!-- <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-data-jpa</artifactId>
-    <version>2.4.2</version>
-</dependency>
- -->
- <!-- <dependency>
-	<groupId>org.springframework</groupId>
-	<artifactId>spring-core</artifactId>
-	<version>5.3.2</version>
-</dependency> -->
 			<dependency>
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-starter-gateway</artifactId>
 			</dependency>
- <dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-jpa</artifactId>
 			</dependency>
     </dependencies>
     <build>
